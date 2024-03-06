@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Xcode
 #
 # gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
@@ -88,3 +89,37 @@ fastlane/test_output
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
+=======
+# Ignorer les fichiers générés par Xcode
+.DS_Store
+build/
+DerivedData/
+*.hmap
+*.ipa
+*.xcarchive
+*.xcodeproj/
+*.xcworkspace/
+
+# Ignorer les fichiers d'exécution
+*.exe
+*.out
+*.dll
+
+# Ignorer les fichiers Swift Package Manager
+.Package.resolved
+
+# Ignorer les fichiers de sauvegarde
+*~
+
+# Ignorer les fichiers temporaires créés par l'éditeur
+*.swp
+*.swo
+
+# Ignorer les fichiers de configuration de l'éditeur
+.idea/
+
+# Ignorer les fichiers de débogage
+debug/
+
+
+>>>>>>> 8b16e43 (ajout de choses)
